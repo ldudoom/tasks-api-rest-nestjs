@@ -1,19 +1,20 @@
 Vamos a instalar el CLI de nest.js  (https://docs.nestjs.com/)
     $ npm i -g @nestjs/cli
-
     Which package manager would you ❤️  to use?  -> seleccionamos "npm"
 
 El proyecto creado por el CLI de NestJs crea la siguiente estructura de directorios:
-
     - node_modules:  Aqui se encuentran instaladas todas las dependencias del proyecto
     - scr: Aqui se encontrara todo el codigo de nuestra aplicacion
     - test: Este es el directorio donde programaremos las pruebas unitarias y de integracion
     - .eslintrc.js: Es una herramienta que permite el analisis de codigo estatico, esto nos ayuda a identificar patrones con errores en el codigo
     - .gitignore: Archivo para colocar archivos y/o directorios que no seran trackeados por GIT
-    - .prettyerrc: 
-    - nest-cli.json: 
-    - package-lock.json:
-    - package.json: 
-    - README.md: 
-    - tsconfig.build.json: 
-    - tsconfig.json: 
+    - .prettyerrc: Archivo para configuracion de impresion de errores
+    - nest-cli.json: Configuracion de NestJS CLI 
+
+COMANDOS BASICOS DE LA APLICACION
+    Para saber los comandos que vamos a poder ejecutar, revisamos el archivo package.json, y los que mas vamos a usar son:
+
+    $ npm run build  -> Compila el codigo
+    $ npm run start  -> Inicia el servidor
+    $ npm run start:dev  ->  Inicia el servidor en modo desarrollo
+    $ npm run start:prod -> Inicia el servidor en modo produccion
